@@ -1,15 +1,37 @@
+@font-face {
+    font-family: boiling;
+    src: url("./assets/FontBoiling.ttf")
+}
 body{
     background-image:url("./assets/galaxy.jpg");
     width:100%;
     height:100%;
 }
 
+
 .profile img{
-    width:200px;
-    padding-left: 50%;
+    width:300px;
+    padding-left:35%;
     padding-top: 50px;
 }
 
+.Firstname{
+    width:200px;
+    float:right;
+    font-size:50px;
+    color:white;
+    font-family: boiling;
+    padding-right:35%;
+}
+.Lastname{
+    width:200px;
+    text-align: right;
+    font-size:50px;
+    color:white;
+    font-family: boiling;
+    padding-left:50%;
+    padding-bottom:90%;
+}
 
 .sidebar {
     height: 100%;
