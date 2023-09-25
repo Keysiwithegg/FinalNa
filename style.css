@@ -7,32 +7,37 @@ body{
     width:100%;
     height:100%;
 }
-
-
-.profile img{
-    width:300px;
-    padding-left:35%;
-    padding-top: 50px;
+.about-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 150px;
+  margin-right: 180px;
+  
 }
-
-.Firstname{
-    width:200px;
-    float:right;
-    font-size:50px;
-    color:white;
-    font-family: boiling;
-    padding-right:35%;
+.about-container img{
+  height: 300px;
+  width: 300px;
 }
-.Lastname{
-    width:200px;
-    text-align: right;
-    font-size:50px;
-    color:white;
-    font-family: boiling;
-    padding-left:50%;
-    padding-bottom:90%;
+#about-content{
+  color:white;
+  font-family: Bahnschrift;
+  font-size: 40px;
 }
-
+#sub-text{
+  font-size:20px;
+  font-family: boiling;
+  color:white;
+}
+.about-paragraph-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
 .sidebar {
     height: 100%;
     width: 70px;
