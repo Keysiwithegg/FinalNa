@@ -82,7 +82,7 @@ body{
   align-items: center;
 }
 .project-container{
-  width:1000px;
+  width:1100px;
   height: 800px;
   background-color: #ece0d1;
   display: flex;
@@ -109,7 +109,12 @@ body{
   padding-left: 40px;
   margin-right: 50px;;
 }
-
+#btnlink{
+  width: 150px;
+  height: 50px;
+  font-family: boiling;
+  margin-left:80px;
+}
 .sidebar {
     height: 100%;
     width: 70px;
