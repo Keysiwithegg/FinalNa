@@ -7,6 +7,11 @@ body{
     width:100%;
     height:100%;
 }
+.test-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .about-container{
   display: flex;
   flex-direction: row;
@@ -30,10 +35,12 @@ body{
   font-size:20px;
   font-family: boiling;
   color:black;
+  margin:10px;
+  text-align: justify;
 }
 .about-paragraph-container{
-  height: 300px;
-  width: 400px;
+  height: 250px;
+  width: 500px;
   background-color: #e8e4c9;
   display: flex;
   flex-direction: column;
@@ -41,6 +48,66 @@ body{
   align-items: center;
   border-radius: 10px;
   margin-top:50px;
+}
+#about-content-v2{
+  color:black;
+  font-family: Bahnschrift;
+  font-size: 40px;
+  text-align: center;
+}
+.test-skills-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-container{
+  width:550px;
+  height: 400px;
+  background-color: #ece0d1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top:50px;
+  gap:30px;
+}
+.skills-container img{
+    width: 100px;
+    height: 100px;
+}
+.test-project-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-container{
+  width:1000px;
+  height: 800px;
+  background-color: #ece0d1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  border-radius: 10px;
+  margin-top:50px;
+  gap:20px;
+}
+.skills-container img{
+    width: 100px;
+    height: 100px;
+}
+#about-content-v3{
+  color:black;
+  font-family: Bahnschrift;
+  font-size: 40px;
+  margin-left:80px;
+}
+#projectpic{
+  width: 250px;
+  height: 150px;
+  padding-left: 40px;
+  margin-right: 50px;;
 }
 
 .sidebar {
